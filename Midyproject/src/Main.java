@@ -114,6 +114,7 @@ public class Main {
 				}
 				printKosong();
 				ableTest(ymau);
+				
 			}		
 		}else if(ymau.equals("Motorcycle")) {
 			if(arrMot.size() == 0) {
@@ -123,6 +124,7 @@ public class Main {
 				printHeader();
 				for(int i=0; i<arrMot.size() ; i++) {
 					System.out.printf("|%-5s|%-15s|%-15s|", i+1, arrMot.get(i).getType(), arrMot.get(i).getName());
+					System.out.println();
 					System.out.println("|-----|---------------|---------------|");
 					System.out.println();
 				}
@@ -176,7 +178,7 @@ public class Main {
 		
 	}
 	public static boolean ymauValid(String ymau) {
-		if(ymau.equals("Car") || ymau.equals("Motorycle")) return true;
+		if(ymau.equals("Car") || ymau.equals("Motorcycle")) return true;
 		System.out.println(">> Input tidak valid!");
 		return false;
 	}

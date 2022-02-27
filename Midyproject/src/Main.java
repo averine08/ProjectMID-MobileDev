@@ -300,7 +300,7 @@ public class Main {
 				do {
 					System.out.print("Jenis kendaraan yang ingin di test drive [Car | Motorcycle]: ");
 					 ymau= scan.nextLine();
-					 System.out.println(ymau);
+//					 System.out.println(ymau);
 				}while ( ymauValid(ymau) == false );
 				
 				printlist(ymau);

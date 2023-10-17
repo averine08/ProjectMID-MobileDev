@@ -1,5 +1,5 @@
 # ProjectMID-MobileDev
--  A Program that store Motorcycle and Car available using ArrayList.
+-  A Program that store available Motorcycle and Car using ArrayList.
 -  Created for completing Mid Project of BNCC Mobile Programming with Java Course
 
 ## Key features :
